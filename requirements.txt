@@ -1,0 +1,39 @@
+# ============================================
+# Le Langage des Machines - Requirements
+# Serie educative NLP par Glorie M. WOWO
+# ============================================
+
+# --- Acte I : Bag of Words ---
+scikit-learn>=1.0.0
+
+# --- Acte II : TF-IDF ---
+# (utilise scikit-learn)
+
+# --- Acte III : Naive Bayes ---
+# (utilise scikit-learn)
+
+# --- Acte IV : N-grammes ---
+# (utilise scikit-learn)
+
+# --- Acte V : Word Embeddings ---
+gensim>=4.0.0
+scipy>=1.7.0
+
+# --- Visualisation (tous les actes) ---
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# --- Traitement de texte ---
+numpy>=1.21.0
+pandas>=1.3.0
+
+# --- NLP Francais (optionnel mais recommande) ---
+spacy>=3.4.0
+
+# --- Jupyter Notebooks ---
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# --- Pour telecharger le modele SpaCy francais ---
+# Executer apres installation :
+# python -m spacy download fr_core_news_md
